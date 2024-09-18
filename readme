@@ -1,0 +1,20 @@
+# Aprendiendo JavaScript
+
+Este proyecto es un ejemplo de cómo crear elementos dinámicos en una página web utilizando JavaScript. Se genera una serie de "llaves" con información aleatoria que el usuario puede seleccionar. Al hacer clic en una llave, se actualiza un campo oculto en el formulario con el modelo de la llave seleccionada, para que con el id identique la compra.
+
+## Estructura del Proyecto
+
+- `index.html`: Archivo HTML principal que contiene la estructura de la página.
+- `style.css`: Archivo CSS para estilizar la página (aún no proporcionado en el código).
+- `solucion.js`: Archivo JavaScript que contiene la lógica para generar las llaves y manejar la interacción.
+
+## Funcionalidad
+
+1. **Generación de Llaves Dinámicas:**
+   - El archivo `solucion.js` genera 20 llaves con información aleatoria (nombre, modelo y precio).
+   - Cada llave se muestra en un `div` dentro del contenedor `.flex-container`.
+   - Cada `div` tiene un evento de clic que actualiza el campo oculto con el modelo de la llave seleccionada.
+
+2. **Campo Oculto:**
+   - Un campo oculto (`.key-data`) en el formulario almacena el modelo de la llave seleccionada.
+   - Este campo se actualiza cuando el usuario hace clic en una llave.
