@@ -1,4 +1,4 @@
-# Aprendiendo JavaScript
+#JavaScript Datos para una llave
 
 Este proyecto es un ejemplo de cómo crear elementos dinámicos en una página web utilizando JavaScript. Se genera una serie de "llaves" con información aleatoria que el usuario puede seleccionar. Al hacer clic en una llave, se actualiza un campo oculto en el formulario con el modelo de la llave seleccionada, para que con el id identique la compra.
 
